@@ -576,10 +576,13 @@ img {
   padding-left: 38px;
 }
 
+.form-input:focus {
+  border: 1px solid #4d5ae5;
+}
+
 .form-label {
   font-weight: 400;
   font-size: 12px;
-
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
@@ -591,7 +594,9 @@ img {
 }
 
 .form-input-icon {
+  display: block;
   position: absolute;
-  top: 0;
-  left: 16;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
 }
