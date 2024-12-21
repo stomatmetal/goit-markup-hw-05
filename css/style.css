@@ -531,11 +531,67 @@ img {
   fill: #2e2f42;
 }
 
-.close-btn:hover + .close-icon {
+.close-btn:hover .close-icon {
   fill: #fff;
 }
 
 .close-btn:hover {
   background-color: #404bbf;
   border: none;
+}
+
+.modal-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  padding: 72px 24px 0;
+  margin-bottom: 16px;
+}
+
+.modal-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 4px;
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-input {
+  display: block;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  background: #fcfcfc;
+  padding: 11px 0;
+  padding-left: 38px;
+}
+
+.form-label {
+  font-weight: 400;
+  font-size: 12px;
+
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  margin-bottom: 4px;
+}
+
+.form-user-icon-wrapper {
+  position: relative;
+}
+
+.form-input-icon {
+  position: absolute;
+  top: 0;
+  left: 16;
 }
