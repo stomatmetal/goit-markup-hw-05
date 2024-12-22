@@ -598,10 +598,10 @@ img {
   transform: translateY(-50%);
 }
 
-.form-input:focus {
-  border: 1px solid #4d5ae5;
+.form-input:focus + .form-input-icon {
+  fill: #4d5ae5;
 }
 
-.form-input-icon:focus {
-  fill: #4d5ae5;
+.form-input:focus {
+  border: 1px solid #4d5ae5;
 }
