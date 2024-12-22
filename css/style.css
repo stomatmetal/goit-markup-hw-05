@@ -577,10 +577,6 @@ img {
   outline: transparent;
 }
 
-.form-input:focus .form-input-icon {
-  border: 1px solid #4d5ae5;
-}
-
 .form-label {
   font-weight: 400;
   font-size: 12px;
@@ -600,5 +596,12 @@ img {
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
+}
+
+.form-input:focus {
+  border: 1px solid #4d5ae5;
+}
+
+.form-input-icon:focus {
   fill: #4d5ae5;
 }
